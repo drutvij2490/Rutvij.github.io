@@ -601,10 +601,86 @@ img {
 .services__modal-service {
   display: flex;
 }
+.services__modal-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1-5);
+}
+
+.services__modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.services__modal-icon {
+  color: var(--first-color);
+  margin-right: var(--mb-0-25);
+}
 /* Active Modal */
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
 
 /*==================== PORTFOLIO ====================*/
+.portfolio__container {
+  overflow: initial;
+}
+.portfolio__content {
+  padding: 0 1.5rem;
+}
+.portfolio__img {
+  width: 265px;
+  border-radius: 0.5rem;
+  justify-self: center;
+}
+.portfolio__title {
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--mb-0-5);
+}
+.portfolio__description {
+  margin-bottom: var(--mb-0-75);
+}
+.portfolio__button:hover .button__icon {
+  transform: translateX(0.25rem);
+}
 
+.swiper-button-prev::after .swiper-button-next::after {
+  content: "";
+}
+
+.swier-portfolio-icon {
+  font-size: 2rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev {
+  left: -0.5rem;
+}
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.swiiper-button-next {
+  right: -0.5rem;
+}
+.swiper-container-horizontal > .swiper-pegination-bullets {
+  bottom: -2.5rem;
+}
+
+.swiper-pegination-bullets-active {
+  background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiiper-button-next,
+.swiper-pegination-bullets {
+  outline: none;
+}
 /*==================== PROJECT IN MIND ====================*/
 
 /*==================== TESTIMONIAL ====================*/
