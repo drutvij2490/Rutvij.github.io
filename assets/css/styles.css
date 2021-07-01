@@ -468,35 +468,27 @@ img {
   width: 90%;
 }
 .skills__css {
-  width: 90%;
+  width: 70%;
 }
 .skills__js {
-  width: 90%;
+  width: 80%;
 }
 .skills__react {
-  width: 90%;
+  width: 50%;
 }
 .skills__php {
   width: 90%;
 }
 .skills__node {
-  width: 90%;
+  width: 70%;
 }
 .skills__firebase {
-  width: 90%;
+  width: 80%;
 }
 .skills__java {
-  width: 90%;
+  width: 80%;
 }
-.skills__figma {
-  width: 90%;
-}
-.skills__sketch {
-  width: 90%;
-}
-.skills__photoshop {
-  width: 90%;
-}
+
 .skills__close .skills__list {
   height: 0;
   overflow: hidden;
